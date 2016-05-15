@@ -13,3 +13,4 @@ venv
 generated_reports/*
 !generated_reports/.keep
 lib/reports_creator/generated_reports/*
+*.sqlite3
