@@ -40,43 +40,8 @@
 @media screen and (max-width: 999px) {
     #place-row{display: block !important};
 
-
-
-/*    #place_discr {
-        padding-top: 1vh;
-        margin-top: 5vh;
-    }*/
-
- /*   #place_discr_bg {
-        background: radial-gradient( circle at center, rgba(255, 255, 288, 1), rgba(255, 255, 255, 0.8));
-        margin-top: 0;
-    }*/
-
-
 }
 
-
-/*медиа запросы для колонок в секции place
-@media screen and (min-width: 1000px) {
-
-
-
-}
-
-
-*/
-
-/*
-@media screen and (max-width: 999px) {
-    #place-row{display: block !important};
-    .col-same-height {
-        float: left !important;
-        display: block;
-        vertical-align: baseline;
-    }
-
-}
-*/
 
 
 
@@ -95,7 +60,13 @@
 @media screen and (min-height: 500px) {
     /*body{font-size: 52px !important;}*/
     h1{font-size: 52px !important;}
-    h2{font-size: 52px !important;}
+    h2{
+        font-size: 45px !important;
+        padding-right: 8vw;
+        padding-left: 3vw;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
     h3{font-size: 50px !important;}
     h4{font-size: 18px !important;}
     .bannerText{padding-top: 12vh !important;}
@@ -105,12 +76,36 @@
         color: #627998 !important;
         text-transform: none !important;
     }
+
+    .btn_add_guest {
+        font-size: 10px;
+    }
+    .btn_submit {
+        font-size: 10px;
+    }
+    .btn_delete_guest {
+        font-size: 10px;
+    }
+
+    .form_input {
+        font-size: 15px;
+    }
+    .form_input_1 {
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (min-height: 600px) {
     /*body{font-size: 58px !important;}*/
     h1{font-size: 58px !important;}
-    h2{font-size: 50px !important;}
+    h2{
+        font-size: 45px !important;
+        padding-right: 8vw;
+        padding-left: 3vw;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
     h3{font-size: 52px !important;}
     h4{font-size: 20px !important;}
     .bannerText{padding-top: 15vh !important;}
@@ -121,14 +116,37 @@
         color: #627998 !important;
         text-transform: none !important;
     }
+
+    .btn_add_guest {
+        font-size: 10px;
+    }
+    .btn_submit {
+        font-size: 10px;
+    }
+    .btn_delete_guest {
+        font-size: 10px;
+    }
+
+    .form_input {
+        font-size: 15px;
+    }
+    .form_input_1 {
+        font-size: 15px;
+    }
 }
 
-@media screen and (min-height: 700px) and (min-width:1300px) {
+@media screen and (min-height: 700px) and (min-width:1200px) {
     /*body{font-size: 60px !important;}*/
     h1{font-size: 85px !important;}
-    h2{font-size: 50px !important;}
+    h2{
+        font-size: 50px !important;
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
     h3{font-size: 54px !important;}
-    h4{font-size: 22px !important;}
+    h4{font-size: 20px !important;}
     .bannerText{padding-top: 18vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -138,12 +156,18 @@
     }
 }
 
-@media screen and (min-height: 700px) and (max-width:1299px) {
+@media screen and (min-height: 700px) and (max-width:1199px) {
     /*body{font-size: 60px !important;}*/
     h1{font-size: 70px !important;}
-    h2{font-size: 50px !important;}
+    h2{
+        font-size: 52px !important;
+        padding-right: 8vw;
+        padding-left: 3vw;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
     h3{font-size: 54px !important;}
-    h4{font-size: 22px !important;}
+    h4{font-size: 20px !important;}
     .bannerText{padding-top: 18vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -157,16 +181,23 @@
 @media screen and (min-height: 800px) {
     /*body{font-size: 120px !important;}*/
     h1{font-size: 100px !important;}
-    h2{font-size: 51px !important;}
+    h2{
+        font-size: 51px !important;
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
     h3{font-size: 75px !important;}
-    h4{font-size: 23px !important;}
-    .bannerText{padding-top: 18vh !important;}
+    h4{font-size: 21px !important;}
+    .bannerText{padding-top: 19vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
         font-size: 25px;
         color: #627998!important;
         text-transform: none !important;
     }
+
     .btn_add_guest {
         font-size: 10px;
     }
@@ -190,7 +221,13 @@
 @media screen and (min-height: 900px) {
     /*body{font-size: 120px !important;}*/
     h1{font-size: 120px !important;}
-    h2{font-size: 51px !important;}
+    h2{
+        font-size: 54px !important;
+        padding-right: 15%;
+        padding-left: 15%;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
     h3{font-size: 75px !important;}
     h4{font-size: 23px !important;}
     .bannerText{padding-top: 21vh !important;}
@@ -386,15 +423,13 @@ h2 {
     letter-spacing: 2px;
     z-index: 1000;
     text-transform: none;
-    padding-right: 20%;
-    padding-left: 20%;
+    /*padding-right: 20%;
+    padding-left: 20%;*/
   /*  padding-top: 300px !important;
     padding-bottom: 300px !important;*/
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
 }
 
 h3 {
@@ -526,6 +561,7 @@ section.full {
 
 .invite_form {
     padding-top: 5vh;
+    padding-bottom: 3vh;
 }
 
 
