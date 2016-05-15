@@ -1,0 +1,15 @@
+# this tmp magic is required
+!tmp/
+tmp/*
+!tmp/pids/
+tmp/pids/*
+!tmp/pids/.keep
+*.pyc
+.idea
+log/*.log
+venv
+*.swp
+!log/.keep
+generated_reports/*
+!generated_reports/.keep
+lib/reports_creator/generated_reports/*
