@@ -20,8 +20,8 @@ input:-webkit-autofill {
 }
 
 @media screen and (min-height: 700px) and (min-width: 1200px){
-    body{font-size: 18px !important;}
-    .login-box{padding-top: 2vh !important};
+    body{font-size: 17px !important;}
+    .login-box{padding-top: 1vh !important};
 }
 
 @media screen and (min-height: 700px) and (max-width: 1199px){
