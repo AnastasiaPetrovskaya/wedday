@@ -20,13 +20,19 @@ input:-webkit-autofill {
 }
 
 @media screen and (min-height: 700px) {
+    body{font-size: 20px !important;}
+    .login-box{padding-top: 2vh !important};
+}
+
+
+@media screen and (min-height: 800px) {
     body{font-size: 22px !important;}
-    .login-box{padding-top: 5vh !important};
+    .login-box{padding-top: 3vh !important};
 }
 
 @media screen and (min-height: 900px) {
     body{font-size: 24px !important;}
-    .login-box{padding-top: 5vh !important};
+    .login-box{padding-top: 4vh !important};
 }
 
 @media screen and (min-height: 1000px) {
@@ -126,7 +132,7 @@ input:-webkit-autofill {
 
 .btn_login {
     color: rgb(255, 255, 255);
-    font-size: 0.6em;
+    font-size: 10px;
     letter-spacing: 2px;
     width:auto;
     margin-left:auto;
