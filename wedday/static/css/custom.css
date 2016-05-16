@@ -6,28 +6,37 @@ input:-webkit-autofill {
 }
 @media screen and (min-height: 400px) {
     body{font-size: 18px !important;}
-    .login-box{padding-top: 10px !important};
+    .login-box{padding-top: 1vh !important};
 }
 
 @media screen and (min-height: 500px) {
-    body{font-size: 18px !important;}
-    .login-box{padding-top: 10px !important};
+    body{font-size: 17px !important;}
+    .login-box{padding-top: 0 !important};
 }
 
 @media screen and (min-height: 600px) {
     body{font-size: 20px !important;}
-    .login-box{padding-top: 30px !important};
+    .login-box{padding-top: 2vh !important};
 }
 
-@media screen and (min-height: 700px) {
+@media screen and (min-height: 700px) and (min-width: 1200px){
+    body{font-size: 18px !important;}
+    .login-box{padding-top: 2vh !important};
+}
+
+@media screen and (min-height: 700px) and (max-width: 1199px){
     body{font-size: 20px !important;}
     .login-box{padding-top: 2vh !important};
 }
 
+@media screen and (min-height: 800px) and (min-width: 1200px){
+    body{font-size: 18px !important;}
+    .login-box{padding-top: 2vh !important};
+}
 
-@media screen and (min-height: 800px) {
-    body{font-size: 22px !important;}
-    .login-box{padding-top: 3vh !important};
+@media screen and (min-height: 800px) and (max-width: 1199px){
+    body{font-size: 20px !important;}
+    .login-box{padding-top: 2vh !important};
 }
 
 @media screen and (min-height: 900px) {
@@ -35,10 +44,19 @@ input:-webkit-autofill {
     .login-box{padding-top: 4vh !important};
 }
 
-@media screen and (min-height: 1000px) {
+
+
+@media screen and (min-height: 1000px) and (min-width: 1200px){
     body{font-size: 30px !important;}
     .login-box{padding-top: 5vh !important};
 }
+
+@media screen and (min-height: 1000px) and (max-width: 1199px){
+    body{font-size: 30px !important;}
+    .login-box{padding-top: 2vh !important};
+}
+
+
 
 .div_extra {
     margin-right:20%;
