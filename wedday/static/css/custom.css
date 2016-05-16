@@ -134,8 +134,8 @@ input:-webkit-autofill {
     color: #262C8A;
     letter-spacing: 2px;
     z-index: 1000;
-    padding-left: 14%;
-    padding-right: 14%;
+    padding-left: 13%;
+    padding-right: 13%;
 }
 
 .err_p {
@@ -168,7 +168,7 @@ input:-webkit-autofill {
 .pas_input {
     border: 1px solid #3AA5A0;
     background-color: #fff !important; 
-    font-size: 0.6em;
+    font-size: 12px;
     letter-spacing: 2px;
     width: 80%;
     margin-left: 10%;
