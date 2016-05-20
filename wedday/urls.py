@@ -15,12 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from . import views
 
 urlpatterns = [
     url(r'', include('wedLanding.urls', namespace='wedLanding')),
     url(r'^admin/', admin.site.urls),
 
     url(r'^login$', 'django.contrib.auth.views.login', name='login'),
-    #url(r'^login/$', views.SettingsBackend, name='login'),
+    #url(r'^login$', views.SettingsBackend, name='login'),
+    #url(r'^login$', views.custom_auth, name='login'),
     url(r'^logout$', 'django.contrib.auth.views.logout'),
 ]

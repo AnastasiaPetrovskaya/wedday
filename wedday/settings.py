@@ -49,6 +49,8 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'wedLanding.middleware.AdminAccess'
 ]
 
 ROOT_URLCONF = 'wedday.urls'
@@ -82,6 +84,15 @@ DATABASES = {
     }
 }
 
+#AUTHENTICATION_BACKENDS = ['wedlanding.custom_auth.SettingsBackend']
+
+APPEND_SLASH=False
+
+AUTHENTICATION_BACKENDS = (
+    'wedday.backend.SettingsBackend',
+    'django.contrib.auth.backends.ModelBackend', # default
+    'guardian.backends.ObjectPermissionBackend',
+)
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
@@ -122,9 +133,9 @@ STATICFILES_DIRS = (
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-RU'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 

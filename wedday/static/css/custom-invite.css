@@ -96,7 +96,7 @@
 
 }
 
-@media screen and (min-height: 600px) {
+@media screen and (min-height: 600px)  and (max-width:1199px){
     /*body{font-size: 58px !important;}*/
     h1{font-size: 58px !important;}
     h2{
@@ -135,6 +135,48 @@
     }
 }
 
+@media screen and (min-height: 600px)  and (min-width:1200px){
+    /*body{font-size: 58px !important;}*/
+    h1{font-size: 58px !important;}
+    h2{
+        font-size: 45px !important;
+        padding-right: 8vw;
+        padding-left: 3vw;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
+    h3{font-size: 52px !important;}
+    h4{font-size: 18px !important;}
+    .bannerText{padding-top: 15vh !important;}
+    /*.bannerText{padding-top: 100px !important;}*/
+    .navbar-nav>li>a {
+        font-family:  'UKIJDiT';
+        font-size: 20px;
+        color: #627998 !important;
+        text-transform: none !important;
+    }
+
+    .btn_add_guest {
+        font-size: 10px;
+    }
+    .btn_submit {
+        font-size: 10px;
+    }
+    .btn_delete_guest {
+        font-size: 10px;
+    }
+
+    .form_input {
+        font-size: 15px;
+    }
+    .form_input_1 {
+        font-size: 15px;
+    }
+}
+
+
+
+
 @media screen and (min-height: 700px) and (min-width:1200px) {
     /*body{font-size: 60px !important;}*/
     h1{font-size: 85px !important;}
@@ -146,7 +188,7 @@
         padding-top: 5vh;
     }
     h3{font-size: 54px !important;}
-    h4{font-size: 20px !important;}
+    h4{font-size: 18px !important;}
     .bannerText{padding-top: 18vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -321,7 +363,7 @@
     font-family: 'RaphaelIcons' !important;
 }
 
-#we {
+#participation {
     /*background-repeat: repeat;
     background-size: contain;
     background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8))
@@ -599,7 +641,7 @@ section.full {
 
 .form_input {
     margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     border: 1px solid #3AA5A0;
     background-color: #fff !important; 
     /*font-size: 0.2em;*/
@@ -683,4 +725,25 @@ section.full {
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+label.error {
+    font-size: 10px;
+    float: left;
+    color: #903F6F;
+}
+
+.thanks {
+    font-size: 40px;
+    color: #788AA3;
+    font-family: 'Bickham Script Two', arial;
+    font-weight: normal;
+
+}
+
+
+.portret {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
 }

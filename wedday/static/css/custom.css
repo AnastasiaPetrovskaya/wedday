@@ -79,7 +79,7 @@ input:-webkit-autofill {
 
 
 .login_title {
-    background-image: url("../img/login_bg2.svg");
+    /*background-image: url("../img/login_bg2.jpg");*/
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;

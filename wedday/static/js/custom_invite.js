@@ -25,15 +25,75 @@ $(document).ready(function() {
     });
 
 
-    $('#submit_invite').click(function() { // catch the form's submit event
+    var $validator = $("#invite_form").validate({
+        rules:{
+             name:{
+                 required: true,
+                 minlength: 6
+             },
+             email:{
+                 required: true,
+                 email: true,
+             },
+        },
+        messages:{
+             login:{
+                 required: "Это поле обязательно для заполнения",
+                 minlength: "Логин должен быть минимум 4 символа",
+             },
+             pswd:{
+                 required: "Это поле обязательно для заполнения",
+             },
+        }
+    });
+
+
+    $('#invite_form').submit(function() { // catch the form's submit event
+        var data = {},
+            comming = null,
+            name = null,
+            email = null,
+            comment = null,
+            pair = [];
+
+        //form validtion
+        var $valid = $("#invite_form").valid();
+        if (!$valid) {
+            $validator.focusInvalid();
+            return false;
+        }
+
+        //making request data
+        if  ($('#yes').hasClass("yes_no_active")) {
+            comming = true;
+        } else {
+            comming = false;
+        }
+        $("#guests").find($("input")).each(function(index, element) {
+            pair.push(element.value);
+        });
+
+        data = {
+            "comming" : comming,
+            "name" : $('#name').val(),
+            "email" : $('#email').val(),
+            "comment" : $('#comment').val(),
+            "pair" : JSON.stringify(pair)
+        }
+
         $.ajax({ // create an AJAX call...
-            data: $('#invite_form').serialize(), // get the form data
+            data: data, //$('#invite_form').serializeArray(), // get the form data
             type: "post", //$(this).attr('method'), // GET or POST
             url: '/accept_invite', //$(this).attr('action'),//'/accept_invite', // the file to call
             dataType: "json",
             success: function(response) { // on success..
-                console.log(response);
-                //$('#DIV_CONTAINING_FORM).html(response); // update the DIV
+                if (comming) {
+                    $('#g_yes').css({"display":"block"});
+                    $('#g_no').css({"display":"none"});
+                } else {
+                    $('#g_no').css({"display":"block"});
+                    $('#g_yes').css({"display":"none"});
+                }
             }
         });
         return false;
@@ -54,7 +114,6 @@ $(document).ready(function() {
         var inputs = $("#guests").find($("input") );
         console.log(inputs.length)
 
-
         var doc = document;
         var fragment = doc.createDocumentFragment();
 
@@ -63,10 +122,9 @@ $(document).ready(function() {
 
         var input = doc.createElement("input");
         $(input).attr("type", "text");
-        $(input).attr("name", "guest_name_" + inputs.length);
+        $(input).attr("name", "guest_name[" + inputs.length +"]");
         input.className = "form-control form_input_1";
         input.value = $('#guest_name').val();
-        //input.innerHTML = "type='text';value='" + $('#guest_name').value + "'";
         div.appendChild(input);
 
         var span = doc.createElement("span");
@@ -78,7 +136,6 @@ $(document).ready(function() {
         $(button).attr("id", "btn_del_guest_" + inputs.length);
 
         button.onclick = function () {
-            //this.parentElement.removeChild(this);
             $(this).parent().parent().remove();
         };
 
@@ -101,8 +158,5 @@ $(document).ready(function() {
         $(this).parent(".input-group").remove();
 
     });
-
-
-
 
 });
