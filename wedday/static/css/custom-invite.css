@@ -226,8 +226,8 @@
         font-size: 50px !important;
         padding-right: 10%;
         padding-left: 10%;
-        padding-bottom: 3vh;
-        padding-top: 3vh;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
     }
     h3{font-size: 54px !important;}
     h4{font-size: 18px !important;}
@@ -323,8 +323,8 @@
         font-size: 51px !important;
         padding-right: 20%;
         padding-left: 20%;
-        padding-bottom: 4vh;
-        padding-top: 4vh;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
     }
     h3{font-size: 75px !important;}
     h4{font-size: 19px !important;}
@@ -373,8 +373,8 @@
         font-size: 54px !important;
         padding-right: 15%;
         padding-left: 15%;
-        padding-bottom: 5vh;
-        padding-top: 5vh;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
     }
     h3{font-size: 75px !important;}
     h4{font-size: 20px !important;}
@@ -541,17 +541,11 @@ h1 {
 
 h2 {
     font-family: 'Bickham Script Two', arial;
-    /*font-family:  'UKIJDiT';*/
     font-weight: normal;
-    /*color: #262C8A;*/
     color: rgb(98, 121, 152);
     letter-spacing: 2px;
     z-index: 1000;
     text-transform: none;
-    /*padding-right: 20%;
-    padding-left: 20%;*/
-  /*  padding-top: 300px !important;
-    padding-bottom: 300px !important;*/
     width: 100%;
     text-align: center;
     margin-top: 10px;
@@ -604,7 +598,7 @@ h6 {
     text-transform: none;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 4vh !important;
+    padding-top: 3vh !important;
     padding-bottom: 5vh !important;
     padding-left: 2vw !important;
     padding-right: 2vw !important;
@@ -731,7 +725,7 @@ section.full {
 
 .form_input {
     margin-top: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     border: 1px solid #3AA5A0;
     background-color: #fff !important; 
     /*font-size: 0.2em;*/
@@ -794,7 +788,7 @@ section.full {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
