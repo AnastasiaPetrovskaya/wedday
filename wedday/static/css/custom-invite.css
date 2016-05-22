@@ -198,20 +198,20 @@
     }
 
     .btn_add_guest {
-        font-size: 8px;
+        font-size: 10px;
     }
     .btn_submit {
-        font-size: 8px;
+        font-size: 10px;
     }
     .btn_delete_guest {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .form_input {
-        font-size: 13px;
+        font-size: 15px;
     }
     .form_input_1 {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
@@ -226,8 +226,8 @@
         font-size: 50px !important;
         padding-right: 10%;
         padding-left: 10%;
-        padding-bottom: 5vh;
-        padding-top: 5vh;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
     }
     h3{font-size: 54px !important;}
     h4{font-size: 18px !important;}
@@ -244,17 +244,17 @@
         font-size: 8px;
     }
     .btn_submit {
-        font-size: 9px;
+        font-size: 10px;
     }
     .btn_delete_guest {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .form_input {
-        font-size: 13px;
+        font-size: 15px;
     }
     .form_input_1 {
-        font-size: 13px;
+        font-size: 15px;
     }
     .sv-div{
         padding-left: 15px !important;
@@ -323,8 +323,8 @@
         font-size: 51px !important;
         padding-right: 20%;
         padding-left: 20%;
-        padding-bottom: 5vh;
-        padding-top: 5vh;
+        padding-bottom: 4vh;
+        padding-top: 4vh;
     }
     h3{font-size: 75px !important;}
     h4{font-size: 19px !important;}
@@ -338,20 +338,20 @@
     }
 
     .btn_add_guest {
-        font-size: 8px;
+        font-size: 10px;
     }
     .btn_submit {
-        font-size: 9px;
+        font-size: 10px;
     }
     .btn_delete_guest {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .form_input {
-        font-size: 13px;
+        font-size: 15px;
     }
     .form_input_1 {
-        font-size: 13px;
+        font-size: 15px;
     }
     .sv-div{
         padding-left: 13px !important;
