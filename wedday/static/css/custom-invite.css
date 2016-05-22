@@ -20,6 +20,9 @@
     }
 }
 
+
+
+
 @media screen and (max-width: 999px) {
     #place-row{display: block !important};
 
@@ -38,6 +41,7 @@
     }
     h3{font-size: 50px !important;}
     h4{font-size: 18px !important;}
+    h5{font-size: 28px !important;}
     .bannerText{padding-top: 5vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -62,6 +66,14 @@
     .form_input_1 {
         font-size: 15px;
     }
+    .sv-div{
+        padding-left: 8vh !important;
+        padding-right: 8vh !important;
+    }
+    .la-div{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 @media screen and (min-height: 500px) {
@@ -77,6 +89,7 @@
     }
     h3{font-size: 50px !important;}
     h4{font-size: 18px !important;}
+    h5{font-size: 28px !important;}
     .bannerText{padding-top: 12vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -101,6 +114,14 @@
     .form_input_1 {
         font-size: 15px;
     }
+    .sv-div{
+        padding-left: 8vh !important;
+        padding-right: 8vh !important;
+    }
+    .la-div{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 
 }
 
@@ -117,6 +138,7 @@
     }
     h3{font-size: 52px !important;}
     h4{font-size: 20px !important;}
+    h5{font-size: 28px !important;}
     .bannerText{padding-top: 15vh !important;}
     /*.bannerText{padding-top: 100px !important;}*/
     .navbar-nav>li>a {
@@ -142,6 +164,14 @@
     .form_input_1 {
         font-size: 15px;
     }
+    .sv-div{
+        padding-left: 8vh !important;
+        padding-right: 8vh !important;
+    }
+    .la-div{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 @media screen and (min-height: 600px)  and (min-width:1100px){
@@ -157,6 +187,7 @@
     }
     h3{font-size: 52px !important;}
     h4{font-size: 18px !important;}
+    h5{font-size: 28px !important;}
     .bannerText{padding-top: 15vh !important;}
     /*.bannerText{padding-top: 100px !important;}*/
     .navbar-nav>li>a {
@@ -200,6 +231,7 @@
     }
     h3{font-size: 54px !important;}
     h4{font-size: 18px !important;}
+    h5{font-size: 28px !important;}
     .bannerText{padding-top: 18vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -207,6 +239,7 @@
         text-transform: none !important;
         color: #627998 !important;
     }
+
 }
 
 @media screen and (min-height: 700px) and (max-width:1199px) {
@@ -222,12 +255,22 @@
     }
     h3{font-size: 54px !important;}
     h4{font-size: 20px !important;}
+    h5{font-size: 28px !important;}
     .bannerText{padding-top: 18vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
         font-size: 25px;
         text-transform: none !important;
         color: #627998 !important;
+    }
+
+    .sv-div{
+        padding-left: 8vh !important;
+        padding-right: 8vh !important;
+    }
+    .la-div{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 
@@ -245,6 +288,7 @@
     }
     h3{font-size: 75px !important;}
     h4{font-size: 21px !important;}
+    h5{font-size: 29px !important;}
     .bannerText{padding-top: 19vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -286,7 +330,8 @@
     }
     h3{font-size: 75px !important;}
     h4{font-size: 23px !important;}
-    .bannerText{padding-top: 21vh !important;}
+    h5{font-size: 30px !important;}
+    .bannerText{padding-top: 19vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
         font-size: 25px;
@@ -490,7 +535,6 @@ h5 {
     width: 100%;
     text-align: center;
     padding-bottom: 1vh;
-    font-size: 30px;
     margin-top: 1px !important;
 }
 
