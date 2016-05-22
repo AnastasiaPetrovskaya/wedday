@@ -754,6 +754,10 @@ section.full {
 
 }
 
+.btn_add_guest:disabled {
+     background-color: #BDBDBD;
+}
+
 .btn_delete_guest {
     color: rgb(255, 255, 255);
     /*font-size: 0.15em;*/

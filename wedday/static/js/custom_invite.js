@@ -112,7 +112,9 @@ $(document).ready(function() {
 
     $('#add_guest').click(function() {
         var inputs = $("#guests").find($("input") );
-        console.log(inputs.length)
+        if (inputs.length >= 3) {
+            document.getElementById('add_guest').disabled = true;
+        }
 
         var doc = document;
         var fragment = doc.createDocumentFragment();
