@@ -186,7 +186,7 @@
         padding-top: 2vh;
     }
     h3{font-size: 52px !important;}
-    h4{font-size: 18px !important;}
+    h4{font-size: 17px !important;}
     h5{font-size: 28px !important;}
     .bannerText{padding-top: 15vh !important;}
     /*.bannerText{padding-top: 100px !important;}*/
@@ -224,8 +224,8 @@
     h6{font-size: 85px !important;}
     h2{
         font-size: 50px !important;
-        padding-right: 15%;
-        padding-left: 15%;
+        padding-right: 10%;
+        padding-left: 10%;
         padding-bottom: 5vh;
         padding-top: 5vh;
     }
@@ -295,7 +295,7 @@
         padding-top: 5vh;
     }
     h3{font-size: 75px !important;}
-    h4{font-size: 21px !important;}
+    h4{font-size: 19px !important;}
     h5{font-size: 29px !important;}
     .bannerText{padding-top: 19vh !important;}
     .navbar-nav>li>a {
@@ -345,7 +345,7 @@
         padding-top: 5vh;
     }
     h3{font-size: 75px !important;}
-    h4{font-size: 21px !important;}
+    h4{font-size: 20px !important;}
     h5{font-size: 30px !important;}
     .bannerText{padding-top: 19vh !important;}
     .navbar-nav>li>a {
