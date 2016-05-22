@@ -1,4 +1,3 @@
-
 /*медиа запросы для колонок в секции place*/
 @media screen and (min-width: 1000px) {
     #place-row{
@@ -19,23 +18,7 @@
         border-right-style: double;
         border-right-width: 1vw;
     }
-
-
-/*    #place_discr {
-        padding-top: 0;
-        margin-top: 0;
-    }*/
-
-  /*  #place_discr_bg {
-        background: radial-gradient( circle at center, rgba(255, 255, 288, 1), rgba(255, 255, 255, 0.6));
-        margin-top: 10vh;
-    }*/
-
 }
-
-
-
-
 
 @media screen and (max-width: 999px) {
     #place-row{display: block !important};
@@ -43,11 +26,18 @@
 }
 
 
-
-
-
 @media screen and (min-height: 400px) {
-    body{font-size: 38px !important;}
+    h1{font-size: 40px !important;}
+    h6{font-size: 45px !important;}
+    h2{
+        font-size: 45px !important;
+        padding-right: 8vw;
+        padding-left: 3vw;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
+    h3{font-size: 50px !important;}
+    h4{font-size: 18px !important;}
     .bannerText{padding-top: 5vh !important;}
     .navbar-nav>li>a {
         font-family:  'UKIJDiT';
@@ -55,13 +45,31 @@
         color: #627998 !important;
         text-transform: none !important;
     }
+
+    .btn_add_guest {
+        font-size: 10px;
+    }
+    .btn_submit {
+        font-size: 10px;
+    }
+    .btn_delete_guest {
+        font-size: 10px;
+    }
+
+    .form_input {
+        font-size: 15px;
+    }
+    .form_input_1 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-height: 500px) {
     /*body{font-size: 52px !important;}*/
     h1{font-size: 52px !important;}
+    h6{font-size: 56px !important;}
     h2{
-        font-size: 45px !important;
+        font-size: 38px !important;
         padding-right: 8vw;
         padding-left: 3vw;
         padding-bottom: 2vh;
@@ -99,6 +107,7 @@
 @media screen and (min-height: 600px)  and (max-width:1199px){
     /*body{font-size: 58px !important;}*/
     h1{font-size: 58px !important;}
+    h6{font-size: 58px !important;}
     h2{
         font-size: 45px !important;
         padding-right: 8vw;
@@ -137,16 +146,17 @@
 
 @media screen and (min-height: 600px)  and (min-width:1200px){
     /*body{font-size: 58px !important;}*/
-    h1{font-size: 58px !important;}
+    h1{font-size: 80px !important;}
+    h6{font-size: 80px !important;}
     h2{
         font-size: 45px !important;
-        padding-right: 8vw;
-        padding-left: 3vw;
+        padding-right: 20%;
+        padding-left: 20%;
         padding-bottom: 2vh;
         padding-top: 2vh;
     }
     h3{font-size: 52px !important;}
-    h4{font-size: 18px !important;}
+    h4{font-size: 15px !important;}
     .bannerText{padding-top: 15vh !important;}
     /*.bannerText{padding-top: 100px !important;}*/
     .navbar-nav>li>a {
@@ -180,6 +190,7 @@
 @media screen and (min-height: 700px) and (min-width:1200px) {
     /*body{font-size: 60px !important;}*/
     h1{font-size: 85px !important;}
+    h6{font-size: 85px !important;}
     h2{
         font-size: 50px !important;
         padding-right: 20%;
@@ -200,7 +211,8 @@
 
 @media screen and (min-height: 700px) and (max-width:1199px) {
     /*body{font-size: 60px !important;}*/
-    h1{font-size: 70px !important;}
+    h1{font-size: 68px !important;}
+    h6{font-size: 70px !important;}
     h2{
         font-size: 52px !important;
         padding-right: 8vw;
@@ -223,6 +235,7 @@
 @media screen and (min-height: 800px) {
     /*body{font-size: 120px !important;}*/
     h1{font-size: 100px !important;}
+    h6{font-size: 100px !important;}
     h2{
         font-size: 51px !important;
         padding-right: 20%;
@@ -263,6 +276,7 @@
 @media screen and (min-height: 900px) {
     /*body{font-size: 120px !important;}*/
     h1{font-size: 120px !important;}
+    h6{font-size: 115px !important;}
     h2{
         font-size: 54px !important;
         padding-right: 15%;
@@ -302,18 +316,6 @@
         margin-top: 5vh;
     }
 }
-/*
-@media screen and (max-height: 900px) {
-    .navbar-custom {
-        margin-top: 0vh;
-    }
-    .bannerText{padding-top: 30vh !important;}
-
-
-}
-*/
-
-
 
 
 .menu {
@@ -376,33 +378,12 @@
 
 
 #place {
-/*background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(../img/t_bg_4.jpg) repeat center transparent;*/
-/*    background-image: linear-gradient(rgba(98, 121, 152, 0.25), rgba(98, 121, 152,0.25));*/
-
-/*    background-repeat: repeat;
-    background-size: contain;
- background-image: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65))
-    ,url('../img/bg_extra-01.svg');
-*/
-
- /*   background-image:  linear-gradient(rgba(98, 121, 152, 0.1), rgba(98, 121, 152,0.1)),
-    url("../img/bg_orn3.svg"),  url("../img/place-line-6-t.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-y: top, bottom;
-    width: 100%;
-    background-position-x: center, center;
-*/
-
-
     background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
- url("../img/bg_extra-01.svg");
+        url("../img/bg_extra-01PNG.png");
     background-repeat: repeat;
     background-size: contain;
     background-position:  left bottom, right top;
     background-attachment: fixed;
-
-
 }
 
 body {
@@ -418,7 +399,8 @@ body {
     background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8))
     ,url('../img/bg_extra-01.svg');*/
  /*   background: url(../img/background-texture-1.jpg) repeat center transparent;*/
-    background-image:  linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('../img/place_d_3.jpg');
+    background-image:  linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), 
+    url('../img/place_d_3.jpg');
     background-size: cover;
     background-position: bottom right;
     height:100%;
@@ -451,7 +433,7 @@ h1 {
     height: 70vh;
     width: 100%;
     text-align: center;
-    background: radial-gradient( circle at center, rgba(255, 255, 288, 1), rgba(255, 255, 255, 0.6));
+    background: radial-gradient( circle at center, rgba(255, 255, 288, 1), rgba(255, 255, 255, 0.5));
     border-radius: 50%;
 }
 
@@ -485,7 +467,6 @@ h3 {
     text-align: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
-
 }
 h4 {
     font-family:  'Monotype Corsiva';
@@ -497,12 +478,41 @@ h4 {
     width: 100%;
     text-align: center;
     padding-bottom: 5vh;
-
 }
 
+h5 {
+    font-family:  'Monotype Corsiva';
+    font-weight: normal;
+    color: rgb(98, 121, 152);
+    letter-spacing: 2px;
+    z-index: 1000;
+    text-transform: none;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1vh;
+    font-size: 30px;
+    margin-top: 1px !important;
+}
 
-
-
+h6 {
+    font-family: 'Bickham Script Two', arial;
+    font-weight: normal;
+    /*color: #262C8A;*/
+    color: rgb(98, 121, 152);
+    letter-spacing: 2px;
+    z-index: 1000;
+    text-transform: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 4vh !important;
+    padding-bottom: 5vh !important;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+  /*  padding-top: 300px !important;
+    padding-bottom: 300px !important;*/
+    width: 100%;
+    text-align: center;
+}
 
 header.default {
     /*
@@ -526,7 +536,8 @@ header.default {
     ,url('../img/bg_extra-01.svg');*/
 
     background-position: center center;
-    background-image:  linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url('../img/t_bg_4.jpg');
+    background-image:  linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), 
+    url('../img/t_bg_4.jpg');
     background-size: cover;
 
 }
@@ -557,7 +568,6 @@ header.default img {
 }
 
 .navbar-custom {
-
     font-size: 30px;
     /*font-weight: bold;*/
     color: #262C8A;
@@ -576,10 +586,6 @@ header.default img {
 }
 
 section.full {
-    /*
-    background-color: rgba(204, 226, 247, 0.69);
- url("../img/bg_orn5.svg"),  url("../img/bg_orn5_b.svg");
- */
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: left bottom, right top;
@@ -613,22 +619,6 @@ section.full {
     margin-left: 0.4vw !important;
     margin-right: 0.4vw !important;
 }
-
-/*
-.yes_no {
-    background-color:  #9D9FC3;
-    background-color:  #A2B2C7;
-    color: rgb(255,255,255);
-    border-radius: 5px;
-    font-family: "Arial";
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}*/
-
 
 .yes_no {
 }
@@ -735,7 +725,7 @@ label.error {
 
 .thanks {
     font-size: 40px;
-    color: #788AA3;
+    color: rgb(98, 121, 152);
     font-family: 'Bickham Script Two', arial;
     font-weight: normal;
 
@@ -746,4 +736,41 @@ label.error {
     position: relative;
     border-radius: 50%;
     width: 100%;
+    padding:1vh;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(98, 121, 152)), to(transparent));
+  background-image: -webkit-linear-gradient(rgb(98, 121, 152), transparent);
+  background-image: -moz-linear-gradient(rgb(98, 121, 152), transparent);
+  background-image: -o-linear-gradient(rgb(98, 121, 152), transparent);
+  background-image: linear-gradient(rgb(98, 121, 152), transparent);
 }
+
+
+
+#contacts {
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+        url("../img/bg_extra-01PNG.png");
+    background-repeat: repeat;
+    /*background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url("../img/place_bg_2.jpg");
+    background-repeat: no-repeat;*/
+    background-size: contain;
+    background-position:  left bottom, right top;
+    background-attachment: fixed;
+}
+
+.contact-div {
+    /*background: radial-gradient( circle at center, rgba(255, 255, 288, 1), rgba(255, 255, 255, 0.8));*/
+}
+
+p {
+    font-size: 15px
+}
+
+
+.inner-row {
+    /*background: radial-gradient( circle at center, rgba(255, 255, 288, 1), rgba(255, 255, 255, 0.6));*/
+}
+
+
+
+

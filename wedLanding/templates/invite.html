@@ -31,6 +31,7 @@
     <!-- Plugins -->
     <link href="{% static "plugins/fontawesome/css/font-awesome.css" %}" rel="stylesheet" type="text/css">
 
+    <link rel="shortcut icon" href="{%  static 'favicon1.png' %}">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -212,17 +213,58 @@
 
 
     <section id='contacts' class="full">
-        <div class="row" id="place-row" style="height:100%">
-            <div class="col-md-3 col-md-offset-1 " >
-                <img class="portret"  src="{% static "img/n2.png" %}">
-            </div>
-            <div class="col-md-3 col-md-offset-1 " >
-                <img class="portret"  src="{% static "img/we1.png" %}">
-            </div>
-            <div class="col-md-3 col-md-offset-1 " >
-                <img class="portret"  src="{% static "img/ella1.png" %}">
-            </div>
+        <div class="row" id="contacts-outer-row" style="height:100%">
+            <h6>В главных ролях:</h6>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h5>Свидетели жениха</h5>
+                        <img class="portret"  src="{% static "img/sveta.png" %}">
+                        <h5>Света</h5>
+                        <img class="portret"  src="{% static "img/igor.png" %}">
+                        <h5 style="padding-bottom:5vh">Игорь</h5>
+                    </div>
+                </div>
 
+
+
+
+                <div class="col-md-6">
+                    <div class="row inner-row">
+                        <div class="col-md-6" >
+                            <div class="contact-div col-md-12 ">
+                                <h5>Жених и Невеста</h5>
+                                <img class="portret"  src="{% static "img/we1.png" %}">
+                                <h5>Алексей</h5>
+                                <h4 style="padding-bottom:0">тел. +7-915-025-75-19</h4>
+                                <h5>Анастасия</h5>
+                                <h4>тел. +7-909-973-05-22</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6" >
+                            <div class="contact-div col-md-12">
+                                <h5>Организатор</h5>
+                                <img class="portret"  src="{% static "img/ella1.png" %}">
+                                <h5>Элла</h5>
+                                <h4>тел. +7-915-203-33-32</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h5>Свидетели невесты</h5>
+                        <img class="portret"  src="{% static "img/jen.png" %}">
+                        <h5>Женя</h5>
+                        <img class="portret"  src="{% static "img/andrey.png" %}">
+                        <h5>Андрей</h5>
+                    </div>
+                </div>
+
+
+            </div>
         </div><!-- Row -->
     </section>
 

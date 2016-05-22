@@ -66,7 +66,7 @@ input:-webkit-autofill {
     background-repeat: repeat;
     background-size: contain;
     background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8))
-    ,url('../img/bg_extra-01.svg');
+    ,url('../img/bg_extra-01PNG.png');
 }
 
 @font-face {
