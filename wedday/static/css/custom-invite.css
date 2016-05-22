@@ -321,12 +321,12 @@
     h6{font-size: 95px !important;}
     h2{
         font-size: 51px !important;
-        padding-right: 20%;
-        padding-left: 20%;
-        padding-bottom: 3vh;
-        padding-top: 3vh;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
     }
-    h3{font-size: 75px !important;}
+    h3{font-size: 73px !important;}
     h4{font-size: 19px !important;}
     h5{font-size: 29px !important;}
     .bannerText{padding-top: 19vh !important;}
