@@ -198,20 +198,20 @@
     }
 
     .btn_add_guest {
-        font-size: 10px;
+        font-size: 8px;
     }
     .btn_submit {
-        font-size: 10px;
+        font-size: 8px;
     }
     .btn_delete_guest {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .form_input {
-        font-size: 15px;
+        font-size: 13px;
     }
     .form_input_1 {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
@@ -238,6 +238,23 @@
         font-size: 25px;
         text-transform: none !important;
         color: #627998 !important;
+    }
+
+    .btn_add_guest {
+        font-size: 8px;
+    }
+    .btn_submit {
+        font-size: 9px;
+    }
+    .btn_delete_guest {
+        font-size: 8px;
+    }
+
+    .form_input {
+        font-size: 13px;
+    }
+    .form_input_1 {
+        font-size: 13px;
     }
     .sv-div{
         padding-left: 15px !important;
@@ -271,7 +288,22 @@
         text-transform: none !important;
         color: #627998 !important;
     }
+    .btn_add_guest {
+        font-size: 10px;
+    }
+    .btn_submit {
+        font-size: 10px;
+    }
+    .btn_delete_guest {
+        font-size: 10px;
+    }
 
+    .form_input {
+        font-size: 15px;
+    }
+    .form_input_1 {
+        font-size: 15px;
+    }
     .sv-div{
         padding-left: 8vh !important;
         padding-right: 8vh !important;
@@ -306,28 +338,28 @@
     }
 
     .btn_add_guest {
-        font-size: 10px;
+        font-size: 8px;
     }
     .btn_submit {
-        font-size: 10px;
+        font-size: 9px;
     }
     .btn_delete_guest {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .form_input {
-        font-size: 15px;
+        font-size: 13px;
     }
     .form_input_1 {
-        font-size: 15px;
+        font-size: 13px;
     }
     .sv-div{
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+        padding-left: 13px !important;
+        padding-right: 13px !important;
     }
     .la-div{
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+        padding-left: 13px !important;
+        padding-right: 13px !important;
     }
 }
 
