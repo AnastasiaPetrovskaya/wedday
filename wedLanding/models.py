@@ -12,11 +12,11 @@ import ast
 class Guest(models.Model):
     name = models.CharField(max_length=200)
     email = models.CharField(max_length=100)
-    guest_comment = models.CharField(max_length=300, null=True)
+    guest_comment = models.TextField( null=True)
     comming = models.BooleanField()
     pair = models.TextField(null=True)
     created = models.DateTimeField(auto_now=False, auto_now_add=True)
-    our_comment = models.CharField(max_length=300, null=True)
+    our_comment = models.TextField(null=True)
     
     def __str__(self):
         return self.name
