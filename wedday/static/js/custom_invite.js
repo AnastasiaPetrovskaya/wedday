@@ -69,6 +69,8 @@ $(document).ready(function() {
         } else {
             comming = false;
         }
+
+        pair.push($('#guest_name').val());
         $("#guests").find($("input")).each(function(index, element) {
             pair.push(element.value);
         });
