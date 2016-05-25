@@ -94,6 +94,7 @@ $(document).ready(function() {
                     $('#g_no').css({"display":"block"});
                     $('#g_yes').css({"display":"none"});
                 }
+                $('#submit_invite').css({"display":"none"});
             }
         });
         return false;
